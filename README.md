@@ -1,2 +1,118 @@
-# mi_proyecto
-un proyecto simple para aprender a utilizar github
+‎<!DOCTYPE html>
+‎<html lang="es">
+‎<head>
+‎    <meta charset="UTF-8">
+‎    <title>Pulseras de Oro Laminado 18k</title>
+‎    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+‎    <style>
+‎        body {
+‎            margin: 0;
+‎            font-family: Arial, Helvetica, sans-serif;
+‎            background-color: #f8f8f8;
+‎            color: #333;
+‎        }
+‎        header {
+‎            background: linear-gradient(90deg, #c9a227, #f5d76e);
+‎            color: white;
+‎            padding: 25px;
+‎            text-align: center;
+‎        }
+‎        section {
+‎            padding: 20px;
+‎            max-width: 1000px;
+‎            margin: auto;
+‎        }
+‎        .productos {
+‎            display: grid;
+‎            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+‎            gap: 20px;
+‎        }
+‎        .producto {
+‎            background: white;
+‎            border-radius: 10px;
+‎            padding: 15px;
+‎            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+‎            text-align: center;
+‎        }
+‎        .producto img {
+‎            width: 100%;
+‎            border-radius: 10px;
+‎        }
+‎        .precio {
+‎            color: #c9a227;
+‎            font-size: 20px;
+‎            font-weight: bold;
+‎        }
+‎        .boton {
+‎            display: inline-block;
+‎            margin-top: 10px;
+‎            padding: 10px 15px;
+‎            background: #c9a227;
+‎            color: white;
+‎            text-decoration: none;
+‎            border-radius: 5px;
+‎        }
+‎        .boton:hover {
+‎            background: #a8861c;
+‎        }
+‎        footer {
+‎            background: #222;
+‎            color: white;
+‎            text-align: center;
+‎            padding: 15px;
+‎            margin-top: 30px;
+‎        }
+‎    </style>
+‎</head>
+‎<body>
+‎
+‎<header>
+‎    <h1>Pulseras de Oro Laminado 18k</h1>
+‎    <p>Elegancia, calidad y estilo para toda ocasión</p>
+‎</header>
+‎
+‎<section>
+‎    <h2>Nuestros Productos</h2>
+‎    <div class="productos">
+‎
+‎        <div class="producto">
+‎            <img src="pulsera1.jpg" alt="Pulsera de oro laminado 18k">
+‎            <h3>Pulsera Clásica</h3>
+‎            <p class="precio">$25.00</p>
+‎            <a class="boton" href="https://wa.me/+573008892642">Comprar por WhatsApp</a>
+‎        </div>
+‎
+‎        <div class="producto">
+‎            <img src="pulsera2.jpg" alt="Pulsera de oro laminado 18k">
+‎            <h3>Pulsera Moderna</h3>
+‎            <p class="precio">$30.00</p>
+‎            <a class="boton" href="https://wa.me/+573008892642">Comprar por WhatsApp</a>
+‎        </div>
+‎
+‎        <div class="producto">
+‎            <img src="pulsera3.jpg" alt="Pulsera de oro laminado 18k">
+‎            <h3>Pulsera Doble</h3>
+‎            <p class="precio">$35.00</p>
+‎            <a class="boton" href="https://wa.me/+573008892642">Comprar por WhatsApp</a>
+‎        </div>
+‎
+‎    </div>
+‎</section>
+‎
+‎<section>
+‎    <h2>¿Por qué elegirnos?</h2>
+‎    <ul>
+‎        <li>✔ Oro laminado 18k de alta calidad</li>
+‎        <li>✔ No se oxida ni pierde el color</li>
+‎        <li>✔ Envíos seguros</li>
+‎        <li>✔ Atención personalizada</li>
+‎    </ul>
+‎</section>
+‎
+‎<footer>
+‎    <p>© 2026 Pulseras Oro Laminado 18k</p>
+‎    <p>Contacto: WhatsApp | Instagram | Facebook</p>
+‎</footer>
+‎
+‎</body>
+‎</html>
